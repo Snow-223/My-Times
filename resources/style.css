@@ -1,0 +1,133 @@
+.header{
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: solid black 1px;
+  margin: 0;
+}
+
+.logo-container {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid black;
+  margin: 0;
+}
+
+h1{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header li{
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.major{
+  border: solid black 1px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 70px;
+}
+
+.col{
+  display: inline-flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+.first{
+  width: 630px;
+}
+
+.second{
+  width: 300px;
+}
+
+.third{
+  width: 240px;
+}
+
+.mother{
+  border: solid black 2px;
+  background-image: url("resources/main.png");
+  background-size:100% 100%;
+}
+
+.monument{
+  border: solid black 1px;
+}
+
+.orca{
+  border: solid black 1px;
+}
+
+.earth{
+  border: solid black 2px;
+}
+
+.burger{
+  border: solid black 2px;
+}
+
+.research{
+  border: solid black 1px;
+}
+
+.fbi{
+  border: solid black 2px;
+}
+
+.cats{
+  border: solid black 1px;
+}
+
+.brooklyn{
+  border: solid black 1px;
+}
+
+.cookies{
+  border: solid black 1px;
+}
+
+.cookies img{
+  width: 100%;
+}
+
+.news{
+  border: solid black 1px;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.smaller-title{
+  font-weight: bold;
+  font-size: 18px;
+}
