@@ -73,6 +73,9 @@ nav{
 
 .third.col{
   width: 240px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .mother{
@@ -90,7 +93,7 @@ nav{
 }
 
 .orca{
-  width: 45%;
+  width: 48%;
   padding: 0px;
 }
 
@@ -102,11 +105,11 @@ nav{
   font-size:30px;
   color:white;
   text-align: center;
-  width: 45%;
+  width: 48%;
 }
 
 .burger{
-  width: 45%;
+  width: 48%;
 }
 
 .research{
@@ -117,7 +120,7 @@ nav{
   font-weight:bold;
   color:white;
   text-align: center;
-  width: 45%;
+  width: 48%;
 }
 
 .fbi{
@@ -142,6 +145,61 @@ nav{
 }
 
 .news{
+  margin: 0;
+}
+
+.cat{
+  margin:0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
+}
+
+.buy{
+  margin: 0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
+}
+
+.home{
+  margin: 0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
+}
+
+.advertising{
+  margin: 0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
+}
+
+.illustration{
+  margin: 0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
+}
+
+.finally{
+  margin: 0;
+  border-bottom: solid black 1px;
+  background-color:WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color:DimGray;
 }
 
 .title{
@@ -151,7 +209,7 @@ nav{
 
 .smaller-title{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .left-bottom{
