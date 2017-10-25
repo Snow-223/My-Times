@@ -14,8 +14,7 @@
 .logo-container {
   display: flex;
   flex-grow: 1;
-  border: 1px solid black;
-  margin: 0;
+  margin-left: 50px;
 }
 
 h1{
@@ -42,7 +41,6 @@ nav{
 }
 
 .major{
-  border: solid black 1px;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -55,6 +53,7 @@ nav{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  width: 1300px;
 }
 
 .col{
@@ -65,22 +64,18 @@ nav{
 
 .first.col{
   width: 630px;
-  border: solid black 1px;
 
 }
 
 .second.col{
   width: 300px;
-  border: solid black 1px;
 }
 
 .third.col{
   width: 240px;
-  border: solid black 1px;
 }
 
 .mother{
-  border: solid black 2px;
   background-image: url("main.png");
   background-size: cover;
   color: white;
@@ -92,45 +87,43 @@ nav{
 }
 
 .monument{
-  border: solid black 1px;
 }
 
 .orca{
-  border: solid black 1px;
+  width: 45%;
+  padding: 0px;
 }
 
 .earth{
   background-image: url("fall.png");
   background-repeat:repeat-x;
-  height: 300px;
-  border: solid black 2px;
+  height: 280px;
   font-weight:bold;
   font-size:30px;
   color:white;
   text-align: center;
+  width: 45%;
 }
 
 .burger{
-  border: solid black 2px;
+  width: 45%;
 }
 
 .research{
   background-image: url("hipster.png");
   background-repeat: repeat-x;
-  height: 300px;
-  border: solid black 1px;
+  height: 280px;
   font-size:30px;
   font-weight:bold;
   color:white;
   text-align: center;
+  width: 45%;
 }
 
 .fbi{
-  border: solid black 2px;
 }
 
 .cats{
-  border: solid black 1px;
   background-image: url("cat.png");
   height: 250px;
   font-size:30px;
@@ -139,11 +132,9 @@ nav{
 }
 
 .brooklyn{
-  border: solid black 1px;
 }
 
 .cookies{
-  border: solid black 1px;
 }
 
 .cookies img{
@@ -151,7 +142,6 @@ nav{
 }
 
 .news{
-  border: solid black 1px;
 }
 
 .title{
@@ -173,7 +163,7 @@ nav{
 .l-col{
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: space-between;
   justify-content: space-between;
-  height: 300px;
+  height: 250px;
 }
