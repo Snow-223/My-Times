@@ -11,6 +11,10 @@
   margin: 0;
 }
 
+body{
+  margin: 0;
+}
+
 .logo-container {
   display: flex;
   flex-grow: 1;
@@ -54,6 +58,7 @@ nav{
   font-size: 17px;
   color: black;
   width: 1300px;
+  margin-bottom: 100px
 }
 
 .col{
@@ -224,4 +229,38 @@ nav{
   align-items: space-between;
   justify-content: space-between;
   height: 250px;
+}
+
+.footer{
+  display: flex;
+  height: 200px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.f-line{
+  display: flex;
+}
+
+.l-line{
+  display: flex;
+}
+
+.footer li{
+  display:inline-flex;
+  margin: 5px;
+  color: black;
+}
+
+.f-title{
+  font-family:Georgia;
+  font-size:16px;
+  font-weight: bold;
+  color:white;
 }
