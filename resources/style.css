@@ -44,6 +44,11 @@ nav{
   margin: 0 5px;
 }
 
+.header a{
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .major{
   display: flex;
   margin: 0 auto;
