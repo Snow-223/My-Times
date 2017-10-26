@@ -47,6 +47,7 @@ nav{
 .header a{
   font-size: 14px;
   font-weight: bold;
+  color: black;
 }
 
 .major{
@@ -261,6 +262,10 @@ nav{
   display:inline-flex;
   margin: 5px;
   color: black;
+}
+
+.footer a{
+  color:black;
 }
 
 .f-title{
